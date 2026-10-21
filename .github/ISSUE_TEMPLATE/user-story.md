@@ -2,7 +2,7 @@
 name: User Story
 about: Historia del usuario
 title: ''
-labels: user_stroy
+labels: user-stroy
 assignees: ''
 type: Feature
 
