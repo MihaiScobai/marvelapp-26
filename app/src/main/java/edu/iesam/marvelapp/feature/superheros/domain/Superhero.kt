@@ -6,5 +6,4 @@ data class Superhero(
     val id: Int,
     val name: String,
     val slug: String,
-    val urlImage: String){
-}
+    val urlImage: String)
