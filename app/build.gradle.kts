@@ -44,7 +44,7 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
 
-    testImplementation("io.mockk:mockk-android:1.14.11")
-    testImplementation("io.mockk:mockk-agent:1.14.11")
+    testImplementation(libs.mockk.android)
+    testImplementation(libs.mockk.agent)
 
 }
