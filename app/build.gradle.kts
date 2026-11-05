@@ -40,11 +40,9 @@ dependencies {
     implementation(libs.gson)
     implementation(libs.kotlinx.serialization.json)
 
+    implementation(libs.mockk)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
-
-    testImplementation("io.mockk:mockk:1.13.12")
-    androidTestImplementation("io.mockk:mockk-android:1.13.12")
-
 }
