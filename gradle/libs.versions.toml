@@ -10,7 +10,6 @@ activityKtx = "1.13.0"
 constraintlayout = "2.2.2"
 gsonVersion = "2.15.0"
 kserializationVersion = "1.11.0"
-mockkVerion = "1.14.11"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -23,7 +22,6 @@ androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", ve
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gsonVersion" }
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kserializationVersion"}
-mockk = { group = "io.mockk", name = "mockk-jvm", version.ref = "mockkVerion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
